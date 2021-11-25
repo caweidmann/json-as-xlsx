@@ -36,7 +36,7 @@ let data = [
 ]
 
 let settings = {
-  fileName: 'MySpreadsheet', // Name of the spreadsheet
+  fileName: 'MySpreadsheet', // Name of the resulting spreadsheet
   extraLength: 3, // A bigger number means that columns will be wider
   writeOptions: {} // Style options from https://github.com/SheetJS/sheetjs#writing-options
 }

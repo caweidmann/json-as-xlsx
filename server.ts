@@ -9,22 +9,22 @@ const data: any[] = [
   {
     sheet: 'Adults',
     columns: [
-      { label: 'User', value: 'user' },
+      { label: 'Name', value: 'name' },
       { label: 'Age', value: 'age' }
     ],
     content: [
-      { user: 'Monserrat', age: 21, more: { phone: '11111111' } },
-      { user: 'Luis', age: 22, more: { phone: '12345678' } }
+      { name: 'Monserrat', age: 21, more: { phone: '11111111' } },
+      { name: 'Luis', age: 22, more: { phone: '12345678' } }
     ]
   }, {
     sheet: 'Pets',
     columns: [
-      { label: 'User', value: 'user' },
+      { label: 'Name', value: 'name' },
       { label: 'Age', value: 'age' }
     ],
     content: [
-      { user: 'Malteada', age: 4, more: { phone: '99999999' } },
-      { user: 'Picadillo', age: 1, more: { phone: '87654321' } }
+      { name: 'Malteada', age: 4, more: { phone: '99999999' } },
+      { name: 'Picadillo', age: 1, more: { phone: '87654321' } }
     ]
   }
 ]
